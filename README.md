@@ -1,21 +1,21 @@
 # Real-time-monitoring-systems-based-on-the-MTV-concept
-read me
+
 1. Introduction
 Develop data analysis platform with Python,Mysql, sockjs-tornado,Psutil,pyecharts,and pyecharts-snapshot to set up the real-time monitoring systems based on the MTV concept to obtain information from hardware, and by query data tables and visual charts implemented
 2. Implementation
-There are further information and operaation below,
+There are further information and operaation below,      
 A.Analysis project directory:
 
-| ---- manage.py #Entry startup file, responsible for startup file
-| ---- app #Application package, store MTV
-| -------- __init__.py #Init module, custom application, custom service
-| -------- configs.py #Configuration information (site, database)
-| -------- urls.py #Route view mapping configuration file (configure routing rules)
-| -------- views #view package (storage view module)
-| -------- models #model package (stores model modules)
-| -------- templates #Template directory (stores HTML templates)
-| -------- static #static file directory (CSS, js, pictures)
-| -------- tools #Toolkit (chart, get hardware information, connect to database)
+| ---- manage.py #Entry startup file, responsible for startup file                                                                      
+| ---- app #Application package, store MTV              
+| -------- __init__.py #Init module, custom application, custom service        
+| -------- configs.py #Configuration information (site, database)        
+| -------- urls.py #Route view mapping configuration file (configure routing rules)       
+| -------- views #view package (storage view module)        
+| -------- models #model package (stores model modules)        
+| -------- templates #Template directory (stores HTML templates)        
+| -------- static #static file directory (CSS, js, pictures)        
+| -------- tools #Toolkit (chart, get hardware information, connect to database)       
 B.ORM model design- save raw data to database
 - design memory,swap, cpu modules
 -generate a data table
